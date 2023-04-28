@@ -18,7 +18,6 @@ public:
         return Name;
     }
     void action(){
-    while(true){
         int a;
         cout<<"1. gui tien\n";
         cout<<"2. rut tien\n";
@@ -46,9 +45,8 @@ public:
                     cout<<"vui long nhap lai:\n";
                 }
             }
-        }    
+        }
     }
-}
 };
 
 void Account1(){
